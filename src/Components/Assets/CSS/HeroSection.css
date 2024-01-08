@@ -1,0 +1,25 @@
+.btn-start {
+  backdrop-filter: blur(10px);
+}
+
+.text-gradient {
+  background: linear-gradient(180deg, #009dff 0%, #0049ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  
+}
+
+.heroBackGround{
+  background-image: url("../Images/heroimage-min.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 639px) {
+.heroBackGround{
+  background-color: #001141;
+  background-image: none;
+}
+}

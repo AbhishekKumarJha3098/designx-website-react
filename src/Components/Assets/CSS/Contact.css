@@ -1,0 +1,60 @@
+.contactUsBackground {
+  background-image: url("../Images/backContactus.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactTextGradient {
+  background: linear-gradient(180deg, #c9d8ff 0%, #00a3fd 99.99%, #0046ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.bookDemo {
+  border-radius: 12px;
+  /* border: 5px solid #0046ff; */
+  background: rgba(0, 0, 0, 0.57);
+  box-shadow: 30px 18px 39px 0px rgba(0, 0, 0, 0.25);
+}
+
+.submitButtonForForm {
+  border-radius: 8px;
+  border: 1px solid #029efe;
+  background: linear-gradient(90deg, #315fd6 0%, #019fff 100%);
+}
+
+/* .formBackground{
+  background: linear-gradient(180deg, #0046FF 100%, #25E7E9 100%, #009FFF 100%);
+  border-radius: 27px;
+  padding: 5px;
+} */
+
+.contactForm {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(
+      161deg,
+      rgba(1, 31, 112, 0.2) 5.23%,
+      rgba(31, 159, 186, 0.2) 43.4%,
+      rgba(0, 0, 0, 0.2) 99.15%
+    );
+  border: 5px solid #0046ff;
+  border-radius: 27px;
+  padding: 34px 30px 23px 28px;
+  box-shadow: 30px 18px 39px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bookDemo {
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border 0.3s ease; 
+}
+
+.bookDemo:hover {
+  border: 5px solid #0046ff;
+}
